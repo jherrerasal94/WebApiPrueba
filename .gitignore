@@ -1,0 +1,99 @@
+# Archivos de la solución y proyectos de Visual Studio
+*.suo
+*.user
+*.config
+*.obj
+*.pdb
+*.aps
+*.bsc
+*.csc
+*.ncb
+*.sbr
+*.res
+*.vssscc
+*.vspscc
+*.vssscc
+*.vspscc
+*.vsp
+*.vsx
+*.vsz
+*.tmp
+*.log
+*.bak
+*.old
+*.ilk
+*.idb
+*.opt
+*.aps
+*.tds
+*.ipch
+*.pch
+*.vcproj.*.user
+*.vcxproj.*.user
+*.sln.docstates
+*.resharper
+*.dotSettings
+*.vs/
+**/bin/
+**/obj/
+
+# Paquetes NuGet
+packages/
+*.nupkg
+
+# Dependencias restauradas
+!packages/** # Mantener esta línea si usas PackageReference o si tu carpeta 'packages' está fuera del directorio raíz de la solución.
+                        # Si tu carpeta 'packages' está dentro de la solución, puedes eliminar esta línea.
+
+# Archivos de prueba (si los tienes)
+TestResults/
+
+# Archivos de publicación (si los generas localmente)
+Publish/
+
+# Archivos de configuración con información sensible (ej. cadenas de conexión, claves API)
+appsettings.Development.json # Si contiene datos sensibles locales
+appsettings.json # Si contiene datos sensibles NO versionables
+web.config # Si contiene datos sensibles NO versionables
+
+# Archivos de configuración de usuario (ej. launchSettings.json si contiene credenciales o puertos específicos)
+Properties/launchSettings.json
+
+# Otros archivos de compilación o temporales
+[Bb]in/
+[Oo]bj/
+*.opendb
+*.vsmd
+*.vsmode
+*.webinfo
+*.cache
+*.com
+*.dll
+*.exe
+*.msi
+*.msp
+*.nupkg
+*.vsproj
+*.suo
+*.user
+*.ide
+*.designer.cs
+*.designer.vb
+*.designer.js
+*.designer.html
+
+# Directorios de Visual Studio Code (si también lo usas)
+.vscode/
+
+# Directorios de herramientas de empaquetado (ej. gulp, webpack)
+node_modules/ # Si usas npm/node en tu proyecto
+dist/ # Si generas una carpeta de distribución
+build/ # Si generas una carpeta de construcción
+
+# Logs
+logs/
+*.log
+
+# Archivos específicos de la plataforma (ej. macOS .DS_Store, Windows Thumbs.db)
+.DS_Store
+Thumbs.db
